@@ -45,17 +45,14 @@ st.markdown("""
         animation: gradientShift 15s ease infinite;
     }
     
-    /* Barre latérale élégante */
+    /* Barre latérale élégante - FOND BLANC */
     section[data-testid="stSidebar"] {
-        background: linear-gradient(180deg, 
-            rgba(0, 135, 81, 0.05) 0%, 
-            rgba(252, 209, 22, 0.05) 50%, 
-            rgba(232, 17, 45, 0.05) 100%);
+        background: white !important;
         border-right: 1px solid rgba(0, 135, 81, 0.1);
     }
     
     section[data-testid="stSidebar"] > div {
-        background: transparent;
+        background: white !important;
     }
     
     /* Accent de couleur sur le côté */
@@ -68,6 +65,7 @@ st.markdown("""
         width: 4px;
         background: linear-gradient(180deg, #008751 0%, #FCD116 50%, #E8112d 100%);
     }
+    
     
     /* Titres élégants */
     h1, h2, h3 {
